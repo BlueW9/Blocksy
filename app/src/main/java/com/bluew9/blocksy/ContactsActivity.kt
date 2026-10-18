@@ -96,7 +96,7 @@ class ContactsActivity : Activity() {
             setOnItemClickListener { _, _, position, _ ->
                 val key = shown[position].key
                 if (!selected.add(key)) selected.remove(key)
-                adapter.notifyDataSetChanged()
+                this@ContactsActivity.adapter.notifyDataSetChanged()
                 updateInfo()
             }
         }
