@@ -1,0 +1,1 @@
+A fast, offline call blocker. Move contacts into a blacklist and their calls are rejected, even when the app is closed. No internet permission and no tracking.
